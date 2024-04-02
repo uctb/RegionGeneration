@@ -1,0 +1,20 @@
+branca==0.6.0
+folium==0.14.0
+gputil==1.4.0
+jinja2==3.1.2
+matplotlib==3.3.0
+networkx==2.5.1
+nni==2.6.1
+
+# 受到uctb依赖mxnet-cu100==1.5.0限制，numpy需<0.17.0
+# 去除uctb后，numpy版本可放宽
+# 低版本numpy(<0.17.0?)在运行localsearch.py文件似乎会遇到bug?
+numpy==1.19.2
+pandas==1.1.5
+python_dateutil==2.8.2
+pyyaml==5.4.1
+scikit_learn==0.24.2
+scipy==1.2.1
+seaborn==0.11.2
+shapely==1.8.0
+statsmodels==0.12.2
